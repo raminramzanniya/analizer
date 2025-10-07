@@ -16,6 +16,7 @@ import {
   AreaChartOutlined,
   MailOutlined,
 } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 export default function SideBar() {
   return (
@@ -23,9 +24,11 @@ export default function SideBar() {
       <div>
         <h3 className="sub-menu">Dashbord</h3>
         <ul className="sub-menu__item">
-          <li className="sub-menu__icon active">
-            <HomeOutlined /> Home
-          </li>
+          <Link to="/" className="Link-Icon">
+            <li className="sub-menu__icon active">
+              <HomeOutlined /> Home
+            </li>
+          </Link>
           <li className="sub-menu__icon">
             <BarChartOutlined /> Analytics
           </li>
@@ -37,15 +40,21 @@ export default function SideBar() {
       <div>
         <h3 className="sub-menu">Quick Menu</h3>
         <ul className="sub-menu__item">
-          <li className="sub-menu__icon ">
-            <UserOutlined /> User
-          </li>
-          <li className="sub-menu__icon">
-            <UserAddOutlined /> NewUser
-          </li>
-          <li className="sub-menu__icon">
-            <GoldOutlined /> Products
-          </li>
+          <Link to="/Users"className="Link-Icon">
+            <li className="sub-menu__icon ">
+              <UserOutlined /> User
+            </li>
+          </Link>
+          <Link to="/NewUser"className="Link-Icon" >
+            <li className="sub-menu__icon">
+              <UserAddOutlined /> NewUser
+            </li>
+          </Link>
+          <Link to="/Products"  className="Link-Icon">
+            <li className="sub-menu__icon">
+              <GoldOutlined /> Products
+            </li>
+          </Link>
           <li className="sub-menu__icon">
             <AreaChartOutlined /> Transaction
           </li>

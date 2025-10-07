@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container-Features{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 85vw;
+}
+.Features-Section{
+    margin-top: 50px;
+}
+.Features-Name{
+    font-size: x-large;
+    margin-top: 10px;
+}
+.Features-Profit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.Features-Profit__Money{
+    font-size: xx-large;
+}
+.Features-Text{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.564);
+}
+.positive{
+    color: green;
+}
+.Negetive{
+    color: red;
+}

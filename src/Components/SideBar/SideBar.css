@@ -15,7 +15,7 @@
 .sub-menu__item{
     margin-top: 10px;
     margin-left: 20px;
-    color: rgba(32, 32, 32, 0.319);
+    color: #20202051;
 }
 .sub-menu__icon{
     padding: 5px;
@@ -24,4 +24,7 @@
     background-color: rgba(66, 65, 65, 0.052);
     border-radius: 10px;
     cursor: pointer;
+}
+.Link-Icon{
+    color: #20202051;
 }
