@@ -1,0 +1,10 @@
+.chart {
+    margin: 20px;
+    padding: 20px;
+    margin-left: 5rem;
+    height: 300px !important;
+}
+
+.chartTitle {
+    margin-bottom: 20px;
+}
