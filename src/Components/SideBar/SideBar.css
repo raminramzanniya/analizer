@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container-sidebar{
+    width: 10vw;
+    margin-left: 35px;
+}
+.sub-menu{
+    margin-top: 15px;
+    color: rgba(32, 32, 32, 0.447);
+}
+.sub-menu__item{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgba(32, 32, 32, 0.319);
+}
+.sub-menu__icon{
+    padding: 5px;
+ }
+.sub-menu__icon.active , .sub-menu__icon:hover {
+    background-color: rgba(66, 65, 65, 0.052);
+    border-radius: 10px;
+    cursor: pointer;
+}
